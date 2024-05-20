@@ -1,0 +1,50 @@
+.collaboration-space {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.collaboration-space h2 {
+    color: #2995e2;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.collaboration-space p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+notification-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.user-photo {
+    position:relative;
+}
+
+.user-photo img {
+    width: 100px; /* Ajustez la taille de la photo de l'utilisateur selon vos besoins */
+    border-radius: 50%;
+}
+
+.notification-badge {
+    position: absolute;
+    top: 0;
+    right: -5;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}

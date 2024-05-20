@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBNB Connect</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> <!-- For the home icon -->
+    <script defer src="code/code.js"></script> <!-- Your JavaScript file -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <div class="home-icon">
+                <a href="#accueil">
+                    <i class="fas fa-home"></i>
+                </a>
+            
+            <div class="title">
+                <h1>WELCOME TO RBNB CONNECT</h1>
+            </div>
+            
+            </div>
+            <div class="language-selector">
+                <select name="language" id="language">
+                    <option value="fr">Français</option>
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                    
+                    <option value="br">Brésil</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- Information Bar -->
+    <section class="info-bar">
+        <div class="info-logo">
+            <img src="image/Logo-RBNB.png" alt="Logo RBNB">
+        </div>
+        <div class="info-item">
+            <h3><a href="#" id="employee-space">Espace employé</a></h3>
+        </div>
+        <div class="info-item">
+            <h3>Nos valeurs</h3>
+        </div>
+        <div class="info-item">
+            <h3><a href="#" id="evenements">Evènements</a></h3>
+        </div>
+        <div class="info-item">
+            <h3><a href="#" id="office-locations">Nos bureaux</a></h3>
+        </div>
+        <div class="info-item">
+            <h3>Ressources et formations</h3>
+        </div>
+        
+    </section>
+  <!-- Modale de connexion -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeLoginModal">&times;</span>
+        <h2>Connexion</h2>
+        <form id="loginForm">
+            <label for="username">Identifiant :</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+</div>
+
+    <!-- Liste des bureaux -->
+    <div id="officeList" class="office-list">
+        <span class="close" id="closeOfficeList">&times;</span>
+        <ul>
+            <li>France</li>
+            <li>États-Unis</li>
+            <li>Japon</li>
+            <li>Chine</li>
+            <li>Brésil</li>
+        </ul>
+    </div>
+    
+    </div>
+
+    <script src="code/code.js"></script>
+
+    <!-- Clocks Section -->
+    <section id="clocks">
+        <div class="clock" id="clock-france">
+            <h3>France</h3>
+            <div class="time" id="time-france"></div>
+        </div>
+        <div class="clock" id="clock-usa">
+            <h3>États-Unis</h3>
+            <div class="time" id="time-usa"></div>
+        </div>
+        <div class="clock" id="clock-japan">
+            <h3>Japon</h3>
+            <div class="time" id="time-japan"></div>
+        </div>
+        <div class="clock" id="clock-china">
+            <h3>Chine</h3>
+            <div class="time" id="time-china"></div>
+        </div>
+        <div class="clock" id="clock-brazil">
+            <h3>Brésil</h3>
+            <div class="time" id="time-brazil"></div>
+        </div>
+    </section>
+
+         <!-- Article and Video Section -->
+    <section class="article-video">
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Twc0ULCqkC0?si=8ISr7Z0wtnxfGE_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      
+        <div class="article">
+            <h2>RBNB Innove avec une Stratégie Écologique et Collaborative</h2>
+            <p>Face à des enjeux grandissants liés à la dispersion géographique et au bien-être des employés, RBNB a lancé un projet ambitieux visant à unifier sa stratégie d'écologie numérique et à renforcer la collaboration au sein de l'entreprise.</p>
+            <p><strong>Un projet motivé par des défis concrets</strong></p>
+            <p>L'entreprise RBNB, présente à l'échelle mondiale, a constaté plusieurs défis majeurs freinant son efficacité. La dispersion géographique de ses équipes a compliqué les communications et la collaboration, rendant le travail moins cohésif. Par ailleurs, le manque de pratiques managériales axées sur le bien-être et la reconnaissance des employés a entraîné un sentiment de désengagement et de frustration. Ces obstacles ont poussé RBNB à concevoir une solution innovante pour améliorer son fonctionnement interne.</p>
+            <p><strong>Une application cloud collaborative pour une meilleure synergie</strong></p>
+            <p>Pour remédier à ces problèmes, RBNB met en place une application cloud collaborative accessible à l'ensemble de ses équipes. Cette application est dotée de plusieurs fonctionnalités essentielles :</p>
+            <p><strong>-Outils de mesure des KPI</strong> pour suivre les performances</p>
+            <p><strong>-Espaces collaboratifs en ligne</strong> permettant le partage de fichiers et la vidéoconférence.</p>
+            <p><strong>-Outils sociaux</strong> tels que des chats et des pages personnelles, avec la possibilité de travailler hors ligne.</p>
+            
+            
+            
+        </div>
+        <div class="article-text">
+            <p>La migration vers le cloud présente de nombreux avantages, notamment la réduction de l'impact numérique. En centralisant les documents sur un seul serveur partagé, RBNB élimine les doublons et optimise l'utilisation de l'espace de stockage, réduisant ainsi la consommation d'énergie. De plus, la chaleur générée par les data centers sera récupérée pour chauffer les bâtiments environnants. L'entreprise prévoit également l'installation de systèmes de récupération d'eau de pluie et de panneaux solaires pour minimiser son empreinte écologique.</p>
+            <p><strong>Une collaboration centrée sur l'humain</strong></p>
+            <p>RBNB ne se contente pas d'améliorer les outils de travail ; elle transforme également sa culture d'entreprise. Une nouvelle stratégie managériale respectueuse et bienveillante est mise en place, valorisant le travail de chaque collaborateur. Une charte de bonne conduite sera instaurée, et les espaces de travail seront réaménagés pour être plus accueillants et propices à la détente, augmentant ainsi la productivité. L'intelligence collective est au cœur de cette transformation, avec des séances de brainstorming régulières et un accent mis sur la formation continue. La confiance en soi et le bien-être des employés seront renforcés, favorisant une meilleure productivité. Pour encourager les interactions sociales et renforcer les liens, des moments de convivialité et des team buildings annuels seront organisés.</p>
+        </div>
+        
+    </section>
+     <!-- Title Bar -->
+     <div class="title-bar">
+        <h2>Employé.e.s du mois de nos bureaux</h2>
+    </div>
+
+    
+<!-- Employees of the Month Section -->
+    <section class="employees-month">
+        <div class="employee">
+            <img src="image/employé-france.jpg" alt="Employee of the Month - France">
+            <p>Employé du mois - France</p>
+        </div>
+        <div class="employee">
+            <img src="image/employé-usa.png" alt="Employee of the Month - USA">
+            <p>Employé du mois - États-Unis</p>
+        </div>
+        <div class="employee">
+            <img src="image/employé-japan.jpg" alt="Employee of the Month - Japan">
+            <p>Employé du mois - Japon</p>
+        </div>
+        <div class="employee">
+            <img src="image/employé-spain.png" alt="Employee of the Month - China">
+            <p>Employé du mois - Chine</p>
+        </div>
+        <div class="employee">
+            <img src="image/employé-brazil.jpg" alt="Employee of the Month - Brazil">
+            <p>Employé du mois - Brésil</p>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="footer-content">
+        <p>Contactez-nous :</p>
+        <ul>
+            <li>Email : contact@rbnbconnect.com</li>
+            <li>Téléphone : +1234567890</li>
+            <li>Adresse : 123 rue de l'Écologie, Paris, France</li>
+        </ul>
+    </div>
+</footer>
+</html>
